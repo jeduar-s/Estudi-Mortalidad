@@ -42,11 +42,5 @@ pip install pandas matplotlib seaborn jupyter
 
 Si deseas contribuir, por favor abre un issue o envía un pull request con mejoras en el código o en el análisis.
 
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo `LICENSE`.
-
----
-
-**Autor:** [Tu Nombre]
+**Autor:** Jose Eduardo Saucedo Martinez
 
