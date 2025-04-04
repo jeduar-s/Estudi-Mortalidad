@@ -1,46 +1,96 @@
 # Estudio de Mortalidad
 
-## Descripción
+## Objetivo  
+Analizar indicadores globales de mortalidad, fertilidad y crecimiento poblacional para identificar tendencias demográficas clave que puedan apoyar la toma de decisiones en políticas públicas, salud y desarrollo social.
 
-Este repositorio contiene un análisis sobre la mortalidad basado en un conjunto de datos procesado en un notebook de Jupyter. El estudio incluye la limpieza de datos, visualización y análisis estadístico para obtener insights relevantes.
+---
 
-## Contenido
+## Tabla de Contenidos
+- [Introducción](#introducción)  
+- [Fuentes de Datos](#fuentes-de-datos)  
+- [Procesamiento y Limpieza](#procesamiento-y-limpieza)  
+- [Análisis y Visualización](#análisis-y-visualización)  
+- [Hallazgos Clave](#hallazgos-clave)  
+- [Requisitos](#requisitos)  
+- [Uso](#uso)  
+- [Contribuciones](#contribuciones)  
+- [Autor](#autor)  
 
-- **Notebook:** `Estudio de Mortalidad.ipynb`
-- **Datos:** Se brindara del archivo SYB66_246_202310_Population Growth, Fertility and Mortality Indicators.csv.
-- **Gráficos y análisis:** Se generan representaciones visuales para una mejor interpretación de los resultados.
+---
 
-## Requisitos
+## Introducción  
+Este proyecto tiene como finalidad realizar un análisis exploratorio de datos de mortalidad y fertilidad a nivel mundial. A través de técnicas de análisis y visualización, se busca encontrar patrones relevantes que permitan entender el comportamiento demográfico de diferentes regiones y países.
 
-Para ejecutar el notebook, se recomienda tener instalado:
+---
 
-- Python 3.x
-- Jupyter Notebook o Jupyter Lab
-- Pandas
-- Matplotlib
-- Seaborn
+## Fuentes de Datos  
+- **Archivo Utilizado:**  
+  `SYB66_246_202310_Population Growth, Fertility and Mortality Indicators.csv`  
+- **Fuente:**  
+  [United Nations - World Population Prospects](https://www.un.org/development/desa/pd/)  
+- Este archivo incluye indicadores de crecimiento poblacional, fertilidad, mortalidad infantil, esperanza de vida, entre otros.
 
-Puedes instalar las dependencias necesarias con:
+---
 
-```sh
+## Procesamiento y Limpieza  
+El conjunto de datos fue procesado utilizando Python y herramientas de análisis de datos en un entorno Jupyter Notebook.  
+Pasos realizados:
+- Eliminación de valores nulos.
+- Conversión de tipos de datos.
+- Filtrado por regiones o años relevantes.
+- Homogeneización de nombres y estructuras para facilitar el análisis.
+
+---
+
+## Análisis y Visualización  
+Se utilizaron herramientas como Matplotlib y Seaborn para generar gráficos que representen visualmente:
+- Comparativas de esperanza de vida por región y género.
+- Evolución de tasas de mortalidad infantil.
+- Cambios en tasas de fertilidad a lo largo del tiempo.
+
+---
+
+## Hallazgos Clave (Ejemplos)
+- Se observa una **tendencia decreciente** en la tasa de mortalidad infantil en la mayoría de las regiones del mundo.
+- La **esperanza de vida ha aumentado** globalmente, con mayores incrementos en países en desarrollo.
+- A nivel mundial, la **tasa de fertilidad ha disminuido**, lo que puede tener implicaciones importantes en el crecimiento poblacional futuro.
+
+---
+
+## Requisitos  
+Para ejecutar el notebook, necesitas tener instalado:
+
+- Python 3.x  
+- Jupyter Notebook o Jupyter Lab  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+
+Instalación rápida:
+```bash
 pip install pandas matplotlib seaborn jupyter
 ```
 
-## Uso
+---
 
+## Uso  
 1. Clona este repositorio:
-   ```sh
-   git clone https://github.com/tu_usuario/estudio-mortalidad.git
-   ```
-2. Abre el notebook en Jupyter:
-   ```sh
-   jupyter notebook "Estudio de Mortalidad.ipynb"
-   ```
+```bash
+git clone https://github.com/tu_usuario/estudio-mortalidad.git
+```
+2. Abre el notebook:
+```bash
+jupyter notebook "Estudio de Mortalidad.ipynb"
+```
 3. Ejecuta las celdas en orden para procesar los datos y visualizar los resultados.
 
-## Contribución
+---
 
-Si deseas contribuir, por favor abre un issue o envía un pull request con mejoras en el código o en el análisis.
+## Contribuciones  
+¿Tienes ideas para mejorar este análisis?  
+¡Eres bienvenido! Puedes abrir un issue o enviar un pull request con mejoras en código, visualizaciones o interpretación de datos.
 
-**Autor:** Jose Eduardo Saucedo Martinez
+---
 
+## Autor  
+**José Eduardo Saucedo Martínez**  
